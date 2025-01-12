@@ -1,0 +1,107 @@
+@import url("https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css");
+@import url("https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.12/latin.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #000000;
+  color: #ffffff;
+}
+
+
+#container {
+ padding-left: 50px;
+  padding-top: 0px;
+  padding-block: 10px;
+}
+
+h1 {
+  font-family: sztos-variable, sans-serif;
+  font-style: normal;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 40px;
+  margin-left: 60px;
+  
+}
+
+
+/* Style the label */
+label[for="presidentDropdown"] {
+  font-family: sztos-variable, sans-serif;
+  font-size: 1.2rem; /* Adjust font size */
+  color: #000000; /* White text color */
+  display: block; /* Ensures it is on a separate line */
+  margin-bottom: 0px; /* Adds space between the label and the dropdown */
+  margin-left: 60px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+/* Style the dropdown */
+#presidentDropdown {
+  width: 200px; /* Set the width of the dropdown */
+  padding: 10px; /* Add padding inside the dropdown */
+  font-size: 1rem; /* Set font size */
+  color: #ffffff; /* Text color */
+  background-color: #393939; /* Light background color */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-left: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+/* Add focus effect for better accessibility */
+#presidentDropdown:focus {
+  margin-left: 60px;
+  border-color: #000000; /* Highlight border color on focus */
+  outline: none; /* Remove the default outline */
+}
+
+
+
+.president-section {
+  display: flex;
+  flex-direction: column; /* Stack titles and SVGs vertically */
+  align-items: flex-start; /* Align items to the left */
+}
+img {
+  position: absolute;
+  top: 16%;
+  right: 0;
+  transform: translateY(30%);
+  width: 17%; /* Adjust width as needed */
+  height: auto;
+}
+
+
+h3 {
+  font-family: sztos-variable, sans-serif;
+  font-style: normal; /* Change from 'regular' to 'normal' */
+  font-size: 2rem; /* Change from '02rem' to '2rem' */
+  font-weight: 100;
+  margin-left: 20px; /* Margin for spacing */
+  margin-top: 20px; /* Set margin-top to 0 to avoid affecting SVGs */
+  padding-top: 30px; /* Optional: Add padding for internal space */
+}
+
+td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+thead td {
+  font-weight: 600;
+  font-size: 0.8rem;
+  background: #fafafa;
+}
+
