@@ -1,5 +1,5 @@
 // Load the list of speech text files
-const fileList = await d3.json("./fileList.json"); // Adjust the path as needed
+const fileList = await d3.json("public/fileList.json"); // Adjust the path as needed
 
 import topicKeywords from './topicKeywords.js'; // Adjust the path if needed
 
