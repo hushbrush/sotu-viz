@@ -109,10 +109,10 @@ async function createCharts() {
     const introSVG = d3.create("svg")
         .attr("width", window.innerWidth)  // Width for the intro SVG
         .attr("height", 0) // Height for the intro SVG
-        .attr("id", "intro") // Set an ID for reference
-        .style("position","fixed");
+        .attr("id", "intro"); // Set an ID for reference
+        
        
-    // Call createLegend and pass the introSVG
+   
     
 
 

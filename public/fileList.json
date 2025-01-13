@@ -198,7 +198,6 @@
     { "name": "Clinton", "year": 1997, "party": "Democrat" },
     { "name": "Clinton", "year": 1998, "party": "Democrat" },
     { "name": "Clinton", "year": 1999, "party": "Democrat" },
-    { "name": "Bush", "year": 2000, "party": "Republican" },
     { "name": "Bush", "year": 2001, "party": "Republican" },
     { "name": "Bush", "year": 2002, "party": "Republican" },
     { "name": "Bush", "year": 2003, "party": "Republican" },

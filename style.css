@@ -18,7 +18,7 @@ body {
 #container {
  padding-left: 50px;
   padding-top: 0px;
-  padding-block: 10px;
+  padding-block: 0px;
 }
 
 h1 {
@@ -26,8 +26,8 @@ h1 {
   font-style: normal;
   font-size: 4rem;
   font-weight: 600;
-  margin-top: 100px;
-  margin-bottom: 40px;
+  margin-top: 90px;
+  margin-bottom: 10px;
   margin-left: 60px;
   
 }
@@ -47,7 +47,7 @@ label[for="presidentDropdown"] {
 
 /* Style the dropdown */
 #presidentDropdown {
-  width: 200px; /* Set the width of the dropdown */
+  width: 270px; /* Set the width of the dropdown */
   padding: 10px; /* Add padding inside the dropdown */
   font-size: 1rem; /* Set font size */
   color: #ffffff; /* Text color */
@@ -55,9 +55,11 @@ label[for="presidentDropdown"] {
   border: 1px solid #ccc; /* Light border */
   border-radius: 5px; /* Rounded corners */
   cursor: pointer; /* Change cursor to pointer on hover */
-  margin-left: 60px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  right: 20px;
+  top: 17%; /* Move it up by 60px */
+
+  position: fixed;
+    
 }
 
 /* Add focus effect for better accessibility */
@@ -81,8 +83,8 @@ img {
   transform: translateY(30%);
   width: 17%; /* Adjust width as needed */
   height: auto;
+  position: fixed;
 }
-
 
 h3 {
   font-family: sztos-variable, sans-serif;
@@ -94,10 +96,20 @@ h3 {
   padding-top: 30px; /* Optional: Add padding for internal space */
 }
 
+h5 {
+ 
+  font-family: sztos-variable, sans-serif;
+  font-variation-settings: 'wght' 200, 'wdth' 170;
+  font-size: 18px;
+  margin-left: 60px;
+  width: 50%;
+  word-spacing: 0.15em; /* Increase space between words */
+}
 td {
   padding: 8px;
   border: 1px solid #ccc;
 }
+
 
 thead td {
   font-weight: 600;
