@@ -34,7 +34,7 @@ function displaySpeechTitle(title, container) {
 
 // Preprocess the speech text
 async function preprocessSpeechText(speechFile) {
-    const speechText = await d3.text(`/text/${speechFile}`);
+    const speechText = await d3.text(`public/text/${speechFile}`);
     const cleanText = speechText.toLowerCase().replace(/[^a-z\s]/g, ' ').trim();
     return cleanText.split(/\s+/);
 }
@@ -109,8 +109,9 @@ async function createCharts() {
     const introSVG = d3.create("svg")
         .attr("width", window.innerWidth)  // Width for the intro SVG
         .attr("height", 0) // Height for the intro SVG
-        .attr("id", "intro"); // Set an ID for reference
-
+        .attr("id", "intro") // Set an ID for reference
+        .style("position","fixed");
+       
     // Call createLegend and pass the introSVG
     
 
